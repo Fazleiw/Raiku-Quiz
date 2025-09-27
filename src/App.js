@@ -190,7 +190,9 @@ const RaikuQuizPlatform = () => {
   };
 
   const shareScore = () => {
-    const text = `hey i just score ${score}/5 from @GriffinXBT Raiku website, come join in and hop on learning raiku easiest mode`;
+    const text = `hey I just score ${score}/5 from @GriffinXBT Raiku website, come join in and hop on learning raiku easiest mode 
+    
+    >https://raiku-quiz-platform.vercel.app`;
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(tweetUrl, '_blank');
   };
@@ -215,6 +217,7 @@ const RaikuQuizPlatform = () => {
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Master enterprise-grade Solana infrastructure
+              Made by @GriffinXBT
             </p>
           </div>
 
